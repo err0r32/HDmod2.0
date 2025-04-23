@@ -177,10 +177,16 @@ namespace BarotraumaHD
         #region Приватные методы
 
         private long CalculateTextureSize(Texture2D texture)
-        {
-            // Формула: width * height * bytes per pixel (4 для RGBA)
-            return texture.Width * texture.Height * 4L;
-        }
+		{
+			try
+			{
+				return texture?.Width * texture?.Height * 4L ?? 0L;
+			}
+			catch
+			{
+				return 0L;
+			}
+		}
 
         private void EnforceCacheSizeLimit()
         {

@@ -99,17 +99,26 @@ namespace BarotraumaHD
         /// Пакетная предзагрузка текстур для уровня
         /// </summary>
         public async Task PreloadTexturesForLocation(string locationIdentifier)
-        {
-            if (!_enabled) return;
+		{
+			if (!_enabled || string.IsNullOrEmpty(locationIdentifier)) 
+				return;
 
-            var textureList = GetTexturesForLocation(locationIdentifier);
-            var loadTasks = textureList.Select(path => 
-                _loader.LoadAsync(path, cache: true)
-            ).ToArray();
+			try
+			{
+				var textureList = GetTexturesForLocation(locationIdentifier)?.ToList();
+				if (textureList?.Any() != true) return;
 
-            await Task.WhenAll(loadTasks);
-            HDMod.Log($"Preloaded {loadTasks.Length} textures for {locationIdentifier}");
-        }
+				var loadTasks = textureList.Select(path => 
+					_loader.LoadAsync(path, cache: true)
+				).ToArray();
+
+				await Task.WhenAll(loadTasks);
+			}
+			catch (Exception ex)
+			{
+				HDMod.Error($"Preload failed for {locationIdentifier}: {ex.Message}");
+			}
+		}
 
         private IEnumerable<string> GetTexturesForLocation(string locationId)
         {

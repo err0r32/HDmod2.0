@@ -65,24 +65,25 @@ namespace BarotraumaHD
         /// <summary>
         /// Загружает DDS текстуру с помощью собственного парсера
         /// </summary>
-        private Texture2D LoadDdsTexture(string path)
-        {
-            try
-            {
-                using (var stream = File.OpenRead(path))
-                {
-                    // Упрощенная реализация загрузки DDS
-                    var texture = Texture2D.FromStream(GameMain.Instance.GraphicsDevice, stream);
-                    texture.Name = path;
-                    return texture;
-                }
-            }
-            catch (Exception ex)
-            {
-                HDMod.Error($"Ошибка загрузки DDS {path}: {ex.Message}");
-                throw new Exception($"DDS load failed: {path}", ex);
-            }
-        }
+        public Texture2D LoadDdsTexture(string path)
+		{
+			if (!File.Exists(path)) 
+			{
+				HDMod.Error($"DDS file not found: {path}");
+				return null;
+			}
+
+			try
+			{
+				using var stream = TitleContainer.OpenStream(path);
+				return TextureLoader.FromStream(stream);
+			}
+			catch (Exception ex)
+			{
+				HDMod.Error($"DDS load error ({path}): {ex.Message}");
+				return null;
+			}
+		}
 
         /// <summary>
         /// Синхронная загрузка текстуры (использовать только при необходимости)
