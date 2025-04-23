@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyBindings>
+  <!-- Основные горячие клавиши мода -->
+  <Binding name="ToggleHD" defaultKey="F10">
+    <Description>Включить/выключить HD-текстуры</Description>
+  </Binding>
+
+  <Binding name="ReloadTextures" defaultKey="F11">
+    <Description>Перезагрузить все текстуры</Description>
+  </Binding>
+
+  <Binding name="ShowHDMenu" defaultKey="H">
+    <Description>Открыть меню HD-мода</Description>
+  </Binding>
+
+  <!-- Отладочные команды -->
+  <Binding name="ToggleDebug" defaultKey="F12" debugOnly="true">
+    <Description>Режим отладки</Description>
+  </Binding>
+
+  <Binding name="TextureInfo" defaultKey="I" debugOnly="true">
+    <Description>Информация о текстуре</Description>
+  </Binding>
+
+  <!-- Управление визуальными эффектами -->
+  <Binding name="ToggleFPS" defaultKey="F9">
+    <Description>Показать/скрыть FPS</Description>
+  </Binding>
+
+  <Binding name="ScreenshotMode" defaultKey="PrintScreen">
+    <Description>Режим скриншотов (отключает HUD)</Description>
+  </Binding>
+
+  <!-- Комбинации клавиш -->
+  <Binding name="IncreaseScale" defaultKey="Ctrl+Plus">
+    <Description>Увеличить масштаб текстур</Description>
+  </Binding>
+
+  <Binding name="DecreaseScale" defaultKey="Ctrl+Minus">
+    <Description>Уменьшить масштаб текстур</Description>
+  </Binding>
+
+  <!-- Локализованные описания -->
+  <Localization>
+    <English>
+      <ToggleHD>Toggle HD Textures</ToggleHD>
+      <ReloadTextures>Reload all textures</ReloadTextures>
+      <!-- ... другие переводы ... -->
+    </English>
+    <Russian>
+      <ToggleHD>Включить HD-текстуры</ToggleHD>
+      <ReloadTextures>Перезагрузить текстуры</ReloadTextures>
+      <!-- ... другие переводы ... -->
+    </Russian>
+  </Localization>
+</KeyBindings>

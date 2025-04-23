@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="[ERR] HD Project2" modversion="2.0" corepackage="False" gameversion="1.8.7.0">
+  <UIStyle file="%ModDir%/Content/UI/style.xml" />
+</contentpackage>

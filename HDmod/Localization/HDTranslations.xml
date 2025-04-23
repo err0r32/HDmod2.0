@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Translations>
+  <!-- Общие элементы интерфейса -->
+  <Text id="ui.mod_name">
+    <English>[HD] Texture Overhaul</English>
+    <Russian>[HD] Улучшение текстур</Russian>
+  </Text>
+  
+  <Text id="ui.settings">
+    <English>HD Settings</English>
+    <Russian>Настройки HD</Russian>
+  </Text>
+  
+  <Text id="ui.enable_hd">
+    <English>Enable HD Textures</English>
+    <Russian>Включить HD текстуры</Russian>
+  </Text>
+  
+  <Text id="ui.scale_slider">
+    <English>Texture Scale: {0}%</English>
+    <Russian>Масштаб текстур: {0}%</Russian>
+  </Text>
+
+  <!-- Сообщения консоли -->
+  <Text id="console.texture_loaded">
+    <English>Texture loaded: {0}</English>
+    <Russian>Текстура загружена: {0}</Russian>
+  </Text>
+  
+  <Text id="console.texture_not_found">
+    <English>Texture not found: {0}, using vanilla</English>
+    <Russian>Текстура не найдена: {0}, используется стандартная</Russian>
+  </Text>
+  
+  <Text id="console.cache_cleared">
+    <English>Texture cache cleared</English>
+    <Russian>Кэш текстур очищен</Russian>
+  </Text>
+
+  <!-- Статусы -->
+  <Text id="status.enabled">
+    <English>Enabled</English>
+    <Russian>Включено</Russian>
+  </Text>
+  
+  <Text id="status.disabled">
+    <English>Disabled</English>
+    <Russian>Выключено</Russian>
+  </Text>
+  
+  <Text id="status.memory_usage">
+    <English>Memory: {0} MB</English>
+    <Russian>Память: {0} МБ</Russian>
+  </Text>
+
+  <!-- Ошибки -->
+  <Text id="error.load_failed">
+    <English>Failed to load: {0}</English>
+    <Russian>Ошибка загрузки: {0}</Russian>
+  </Text>
+  
+  <Text id="error.texture_corrupted">
+    <English>Corrupted texture: {0}</English>
+    <Russian>Поврежденная текстура: {0}</Russian>
+  </Text>
+
+  <!-- Команды помощи -->
+  <Text id="help.hd_toggle">
+    <English>Toggles HD textures</English>
+    <Russian>Вкл/выкл HD текстуры</Russian>
+  </Text>
+  
+  <Text id="help.hd_reload">
+    <English>Reloads all HD textures</English>
+    <Russian>Перезагрузить все HD текстуры</Russian>
+  </Text>
+  
+  <Text id="help.hd_status">
+    <English>Shows HD mod status</English>
+    <Russian>Показать статус мода</Russian>
+  </Text>
+</Translations>
+
+<!--
+// Пример функции для получения перевода
+public static string GetTranslation(string id, string language = "English")
+{
+    try 
+    {
+        var doc = XDocument.Load("Content/HDTranslations.xml");
+        return doc.Descendants("Text")
+                 .First(x => x.Attribute("id").Value == id)
+                 .Element(language).Value;
+    }
+    catch
+    {
+        return $"MISSING_TRANSLATION:{id}";
+    }
+}
+
+// Использование с форматированием
+string message = string.Format(
+    GetTranslation("console.texture_loaded", "Russian"),
+    texturePath);
+-->

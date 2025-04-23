@@ -1,0 +1,43 @@
+{
+  "presets": {
+    "low": {
+      "description": "Оптимизировано для слабых ПК",
+      "textureScale": 0.75,
+      "disableParallax": true,
+      "maxTextureSize": 1024,
+      "disableNormalMaps": false,
+      "cacheSizeMB": 512
+    },
+    "medium": {
+      "description": "Сбалансированные настройки",
+      "textureScale": 1.0,
+      "disableParallax": false,
+      "maxTextureSize": 2048,
+      "disableNormalMaps": false,
+      "cacheSizeMB": 1024
+    },
+    "high": {
+      "description": "Улучшенная графика",
+      "textureScale": 1.5,
+      "disableParallax": false,
+      "maxTextureSize": 4096,
+      "disableNormalMaps": false,
+      "cacheSizeMB": 2048
+    },
+    "ultra": {
+      "description": "Максимальное качество",
+      "textureScale": 2.0,
+      "disableParallax": false,
+      "maxTextureSize": 8192,
+      "disableNormalMaps": false,
+      "cacheSizeMB": 4096
+    }
+  },
+  "defaultPreset": "medium",
+  "presetOrder": ["low", "medium", "high", "ultra"],
+  "version": "1.1",
+  "compatibility": {
+    "minGameVersion": "1.8.7.0",
+    "maxGameVersion": "2.0.0.0"
+  }
+}

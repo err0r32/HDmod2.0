@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConsoleMessages>
+  <!-- Системные сообщения -->
+  <Message id="hdmod_loaded">
+    <English>[HD Mod] Successfully initialized (Version: {0})</English>
+    <Russian>[HD Мод] Успешно инициализирован (Версия: {0})</Russian>
+  </Message>
+  
+  <Message id="texture_loaded">
+    <English>Loaded texture: {0}</English>
+    <Russian>Загружена текстура: {0}</Russian>
+  </Message>
+
+  <Message id="texture_not_found">
+    <English>Texture not found: {0}, using vanilla texture</English>
+    <Russian>Текстура не найдена: {0}, используется стандартная текстура</Russian>
+  </Message>
+
+  <!-- Сообщения об ошибках -->
+  <Message id="error_texture_load">
+    <English>Failed to load texture: {0} - {1}</English>
+    <Russian>Ошибка загрузки текстуры: {0} - {1}</Russian>
+  </Message>
+
+  <Message id="error_cache_full">
+    <English>Texture cache full (Size: {0}MB)</English>
+    <Russian>Кэш текстур переполнен (Размер: {0}МБ)</Russian>
+  </Message>
+
+  <!-- Командные сообщения -->
+  <Message id="cmd_hd_enabled">
+    <English>HD texture replacement enabled</English>
+    <Russian>Замена текстур HD включена</Russian>
+  </Message>
+
+  <Message id="cmd_hd_disabled">
+    <English>HD texture replacement disabled</English>
+    <Russian>Замена текстур HD отключена</Russian>
+  </Message>
+
+  <Message id="cmd_cache_cleared">
+    <English>Texture cache cleared (Freed: {0}MB)</English>
+    <Russian>Кэш текстур очищен (Освобождено: {0}МБ)</Russian>
+  </Message>
+
+  <!-- Статусные сообщения -->
+  <Message id="status_textures_loaded">
+    <English>Textures loaded: {0}</English>
+    <Russian>Текстур загружено: {0}</Russian>
+  </Message>
+
+  <Message id="status_memory_usage">
+    <English>Memory usage: {0}MB (Textures: {1}MB)</English>
+    <Russian>Использование памяти: {0}МБ (Текстуры: {1}МБ)</Russian>
+  </Message>
+
+  <!-- Предупреждения -->
+  <Message id="warn_texture_oversized">
+    <English>Texture {0} is too large ({1}MB), consider resizing</English>
+    <Russian>Текстура {0} слишком большая ({1}МБ), рекомендуется уменьшение</Russian>
+  </Message>
+
+  <Message id="warn_unsupported_format">
+    <English>Unsupported texture format: {0}</English>
+    <Russian>Неподдерживаемый формат текстуры: {0}</Russian>
+  </Message>
+
+  <!-- UI сообщения -->
+  <Message id="ui_quality_preset">
+    <English>Quality preset: {0}</English>
+    <Russian>Пресет качества: {0}</Russian>
+  </Message>
+
+  <Message id="ui_resolution_scale">
+    <English>Resolution scale: {0}x</English>
+    <Russian>Масштаб разрешения: {0}x</Russian>
+  </Message>
+</ConsoleMessages>

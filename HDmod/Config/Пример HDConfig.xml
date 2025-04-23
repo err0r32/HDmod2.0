@@ -1,0 +1,7 @@
+<HDConfig>
+  <EnableHDTextures>true</EnableHDTextures>
+  <EnableTextureCache>true</EnableTextureCache>
+  <CacheSizeMB>2048</CacheSizeMB>
+  <TextureScale>2.0</TextureScale>
+  <ShowDebugInfo>false</ShowDebugInfo>
+</HDConfig>
