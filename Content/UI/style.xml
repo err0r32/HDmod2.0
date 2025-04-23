@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <style>
+    <TitleText color="255,255,255,255" hovercolor="255,255,255,255" selectedcolor="255,255,255,255" pressedcolor="255,255,255,255">
+      <Sprite texture="%ModDir%/Content/UI/titleText.png" sourcerect="0,520,1024,328" tile="false" maintainaspectratio="true"></Sprite>
+    </TitleText>
+    <MainMenuVignette color="255,255,255,255">
+      <Sprite texture="%ModDir%/Content/UI/MainMenuVignette.png" sourcerect="0,0,1752,2160" origin="0.5,0.5" />
+    </MainMenuVignette>
+    <MainMenuBackground color="255,255,255,255">
+      <Sprite texture="Content/Map/LocationPortraits/MainMenu1.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/MainMenu2.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/AlienRuins.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/AlienRuins2.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/AlienRuins3.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/AlienRuins4.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/Colony.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/Colony2.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/Colony3.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/Colony4.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/EndPortrait1.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/EndPortrait2.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/EndPortrait3.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/EndPortrait4.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/HabitationOutpost.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/HabitationOutpost2.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/HabitationOutpost3.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/HabitationOutpost4.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/NaturalFormations.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/NaturalFormations2.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/NaturalFormations3.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/NaturalFormations4.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/WorkCampMilitary.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/WorkCampMilitary2.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/WorkCampMilitary3.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/WorkCampMilitary4.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/WorkCampMining1.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/WorkCampMining2.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/WorkCampMining3.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/WorkCampMining4.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/WorkCampResearchFacility1.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/WorkCampResearchFacility2.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/WorkCampResearchFacility3.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/WorkCampResearchFacility4.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/Wreck1.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/Wreck2.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/Wreck3.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/Wreck4.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="Content/Map/LocationPortraits/Wreck5.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+    </MainMenuBackground>
+  </style>
+</Override>
